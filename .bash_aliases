@@ -2,7 +2,7 @@
 ##WE ARE THE WORLD
 alias al='pluma ~/.bash_aliases'
 alias sal='source ~/.bash_aliases && source ~/.bashrc'
-alias ual='cp ~/.bashrc ~/.bash_aliases ~/workspace/vyas/Linux/ '
+alias ual='cp ~/.bashrc ~/.bash_aliases ~/workspace/vyas/Linux/ && cd ~/workspace/vyas/Linux/ && git add . && git commit -m "Update Aliases" && git push'
 alias p='pluma'
 alias ack='ack-grep'
 alias latest='zsh -c "echo ./*(om[1])"'
