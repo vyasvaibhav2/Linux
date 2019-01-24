@@ -1,26 +1,31 @@
 
-##WE ARE THE WORLD
-alias al='pluma ~/.bash_aliases'
+##WE_ARE_THE_WORLD
+alias al='pluma ~/.bash_aliases &'
 alias sal='source ~/.bash_aliases && source ~/.bashrc'
 alias ual='cp ~/.bashrc ~/.bash_aliases ~/workspace/vyas/Linux/ && cd ~/workspace/vyas/Linux/ && git add . && git commit -m "Update Aliases" && git push'
 alias p='pluma'
 alias ack='ack-grep'
 alias latest='zsh -c "echo ./*(om[1])"'
 alias bootim='cd /vagrant/Shared/Boot_Images'
+alias expl='caja .'
+alias sizes='sudo du -h --summarize *'
+alias delall='rm -rf *'
 
 ##GIT
 alias gs='git status'
 alias gloga='git log --graph --oneline --decorate'
 alias gk='gitkraken &'
 alias gc='echo "107ff5324f30214fea780781008588bb380cae20" | xclip -i && git clone'
+alias gco='git checkout'
 alias gp='echo "107ff5324f30214fea780781008588bb380cae20" | xclip -i && git pull'
 alias gitpass='echo "107ff5324f30214fea780781008588bb380cae20" | xclip -i'
+alias gco='git checkout'
+alias pullall='~/workspace/vyas/gitPullAll.sh'
 
 ##Deere
 alias jdxb='jdx build wr8-baytrail_64'
 alias jdxs='jdx simulate wr8-baytrail_64'
 alias jdxsi='jdx simulate wr8-baytrail_64 --simulator-ip=10.140.160.33'
-alias jdxsqi='jdx squish wr8-baytrail_64 --simulator-ip=10.140.160.33'
 alias jdxrb='jdx rebuild wr8-baytrail_64'
 alias jdxe='jdx enter wr8-baytrail_64'
 alias jdxr='jdx runbox enter wr8-baytrail_64'
@@ -29,8 +34,12 @@ alias gbins='cd ~/workspace/gsx/jdx/wr8-baytrail_64/build/bin/'
 alias glibs='cd ~/workspace/gsx/jdx/wr8-baytrail_64/build/lib/'
 alias jlibs='cd ~/workspace/jdcorefs/jdx/wr8-baytrail_64/build/lib/'
 alias jdxsq='jdx squish wr8-baytrail_64'
+alias jdxsqi='jdx squish wr8-baytrail_64 --simulator-ip=10.140.160.33'
 alias rbxlib='cd ~/workspace/gen4os/jdx/wr8-baytrail_64/runbox_extra/opt/GSix/lib/'
 alias rbx='cd ~/workspace/gen4os/jdx/wr8-baytrail_64/runbox_extra/'
+alias jdxtv='jdx translations-verify wr8-baytrail_64'
+alias sim='~/workspace/'
+alias cleanall='~/workspace/vyas/jdxCleanAll.sh'
 
 ##Directories/Repos
 alias shared='cd /vagrant/Shared/'
@@ -44,4 +53,6 @@ alias rp='cd ~/workspace/reprogramming'
 alias plug='cd ~/workspace/isg-equipment-plugins'
 alias disp='cd ~/workspace/displayapps'
 alias t='cd ~/workspace/task-controller-engine'
+alias uds='cd ~/workspace/udsprotocol'
+alias vyas='cd ~/workspace/vyas'
 
