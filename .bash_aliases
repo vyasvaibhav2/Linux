@@ -9,7 +9,7 @@ alias latest='zsh -c "echo ./*(om[1])"'
 alias bootim='cd /vagrant/Shared/Boot_Images'
 alias expl='caja .'
 alias sizes='sudo du -h --summarize *'
-alias delall='rm -rf *'
+alias delall='rm -rf * && echo "All Files Deleted!"'
 
 ##GIT
 alias gs='git status'
